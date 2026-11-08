@@ -1,0 +1,6 @@
+{
+ "version": "1.22",
+ "apk": "apk/3DPrintingLANStatus-1.22.apk",
+ "size": 5354890,
+ "notes": "- Verificação de atualizações corrigida: além das Releases, o app passa a ler o arquivo latest.json do repositório público de APKs (antes falhava quando não havia Release publicada).\n\n1.21:\n- Câmera ao vivo pela rede local (A1, A1 mini, P1P, P1S): imagem no card da tela principal; toque para tela cheia e para salvar a imagem em Imagens/3D Printing LAN Status. Só fica ligada com o app aberto; pode ser escondida em ⋮ → Câmera ao vivo.\n- X1 e H2D: a câmera desses modelos usa vídeo RTSP criptografado, que o app ainda não exibe (aparece um aviso no card).\n\n1.20:\n- Pesagem de carretel durante uma impressão: o peso medido já inclui o que a impressão gastou até ali, e o app passa a descontar só o que sai depois da pesagem (antes descontava a impressão inteira no fim, deixando o saldo menor que o real).\n- O ajuste automático do fator de correção também considera a parte da impressão em andamento ao repesar."
+}
