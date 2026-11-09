@@ -1,6 +1,6 @@
 {
- "version": "1.23",
- "apk": "apk/3DPrintingLANStatus-1.23.apk",
- "size": 5389044,
- "notes": "- Abas na parte de baixo: Status, Câmera e Arquivos. A câmera saiu da tela principal e só fica ligada com a aba dela aberta.\n- Aba Arquivos: navega pelo cartão SD da impressora com tamanho e data, lista os maiores arquivos de todas as pastas e apaga os selecionados para liberar espaço. O arquivo em impressão fica protegido.\n\n1.22:\n- Verificação de atualizações corrigida: além das Releases, o app passa a ler o arquivo latest.json do repositório público de APKs (antes falhava quando não havia Release publicada)."
+ "version": "1.24",
+ "apk": "apk/3DPrintingLANStatus-1.24.apk",
+ "size": 5404120,
+ "notes": "- Segurança do cartão SD: a aba Arquivos fica totalmente bloqueada (listar, copiar e apagar) enquanto a impressora imprime, está pausada ou preparando, e também quando o app não tem o status atual dela. A trava é conferida antes de cada operação e antes de cada arquivo; se a impressão começar no meio, a operação para na hora.\n- Copiar para o celular: os arquivos selecionados vão para Downloads › 3D Printing LAN Status › <nome da impressora>, visível no app Arquivos do Android."
 }
